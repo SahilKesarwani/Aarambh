@@ -69,8 +69,7 @@ body {
 }
 
 #home-section {
-	min-height: calc(100vh - 76px);
-	/* background: url("../images/intro-bg.jpg") center / cover no-repeat; */
+	min-height: 100vh;
 	background-color: rgb(53, 36, 36);
 	display: grid;
 	justify-content: center;
@@ -84,13 +83,13 @@ body {
 	top: -76px;
 	object-fit: cover;
 	width: 100vw;
-	height: 100vh;
+	height: calc(100vh + 76px);
 	opacity: 0.7;
 }
 
-.home-content {
-	margin-top: -76px;
-}
+/* .home-content {
+	margin-top: 76px;
+} */
 
 .custom-btn {
 	min-width: 130px;
@@ -192,6 +191,17 @@ body {
 	align-items: center;
 }
 
+#sponsors {
+	padding: 50px 0;
+	background-color: #261f1f;
+}
+
+.spons {
+	width: 75%;
+	height: auto;
+	border-radius: 50%;
+}
+
 #judging-criteria {
 	background-color: #1d2125;
 }
@@ -207,8 +217,11 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+	.contents {
+		border-radius: 0;
+	}
 	.points {
-		padding: 10px;
+		padding: 20px;
 	}
 	.rules {
 		margin: 0 auto;
@@ -238,6 +251,8 @@ body {
 
 .team .team-1 .pic {
 	border-radius: 4px;
+	width: 284px;
+	height: 325px;
 	overflow: hidden;
 }
 
