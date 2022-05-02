@@ -251,8 +251,8 @@ body {
 
 .team .team-1 .pic {
 	border-radius: 4px;
-	width: 284px;
-	height: 325px;
+	min-width: 284px;
+	min-height: 325px;
 	overflow: hidden;
 }
 
