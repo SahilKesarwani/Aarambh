@@ -394,13 +394,11 @@ body {
 #faq .accordionItem {
 	height: auto;
 	overflow: hidden;
-	max-height: 50em;
 	transition: max-height 1s;
 }
 
 @media screen and (min-width: 48em) {
 	#faq .accordionItem {
-		max-height: 15em;
 		transition: max-height 0.5s;
 	}
 }
