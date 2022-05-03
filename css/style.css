@@ -483,6 +483,14 @@ body {
 	align-items: center;
 }
 
+.handles {
+	color: #00eeff;
+}
+
+.handles:hover {
+	color: #1575cf;
+}
+
 @media (max-width: 992px) {
 	.team .team-1 {
 		margin-bottom: 100px;
