@@ -472,10 +472,29 @@ body {
 	}
 }
 
+#about-us {
+	background-color: #040919;
+	color: #fff;
+	font-size: 75%;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 60px;
+}
+
+.logo-footer {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+.logo-footer2 {
+	height: 50px;
+}
+
 #footer {
 	min-height: 15vh;
 	background-color: #212529;
 	color: #fff;
+	font-size: 70%;
 	display: grid;
 	justify-content: center;
 	align-items: center;
